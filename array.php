@@ -6,7 +6,7 @@ function ArrayAscendingOrder($array){
         echo $i;
         if ($array[$i] < $array[$i+1] && $array[$i+1] <= count($array)) {
             $value = $array[$i+1];
-            array_push($result, $value);
+            array_push($result,$value);
         }
     }
     print_r($result);
